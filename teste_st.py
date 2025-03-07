@@ -1,9 +1,6 @@
 import streamlit as st
 import pandas as pd
 import boto3
-from pyathena import connect
-from pyathena.pandas.cursor import PandasCursor
-import boto3
 import time
 
 # Define AWS credentials and other configuration variables
